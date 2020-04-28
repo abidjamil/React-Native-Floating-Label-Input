@@ -30,18 +30,18 @@ import FloatingLabelInput from 'aj-floating-label-input'
 ### 2) add the Input Field as following
 
 ```sh
-<FloatingLabel`
-            `onChangeText={value => setUsername(value)}`
-            `focusBorderColor={ThemeColors.ThemeColorPrimary}`
-            `focusLabelColor={ThemeColors.ThemeColorPrimary}`
-            `blurBorderColor="#AAA"`
-            `blurLabelColor="#AAA"`
-            `floatingLabel="Username"`
-            `inputStyle={{}}`
-            `labelStyle={{}}`
-            `floatedStyle={{ fontSize: 10, top: 3, }}`
-            `unfloatedStyle={{ fontSize: 11, top: 12, }}`
-            `containerStyle={{ borderRadius: 50, borderWidth: 0.5 }}/>`
+<FloatingLabel
+            onChangeText={value => setUsername(value)}
+            focusBorderColor={ThemeColors.ThemeColorPrimary}
+            focusLabelColor={ThemeColors.ThemeColorPrimary}
+            blurBorderColor="#AAA"
+            blurLabelColor="#AAA"
+            floatingLabel="Username"
+            inputStyle={{}}
+            labelStyle={{}}
+            floatedStyle={{ fontSize: 10, top: 3, }}
+            unfloatedStyle={{ fontSize: 11, top: 12, }}
+            containerStyle={{ borderRadius: 50, borderWidth: 0.5 }}/>
 ```
 
 ## Demo
